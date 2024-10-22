@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu6dw8fv6delo"]
+
+[ext_resource type="Script" path="res://vector_db.gd" id="1_pytm3"]
+
+[node name="Node" type="Node"]
+
+[node name="VectorDB" type="VectorDB" parent="."]
+script = ExtResource("1_pytm3")

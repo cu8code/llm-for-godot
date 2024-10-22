@@ -9,5 +9,8 @@ crate-type = ["cdylib"]  # Compile this crate to a dynamic C library.
 [dependencies]
 godot = { git = "https://github.com/godot-rust/gdext", branch = "master" }
 rusqlite = "0.32.1"
+serde = { version="1.0.210", features = ["derive"] }
+serde_json = {version="1.0.132"}
 sqlite-vec = "0.1.3"
+ureq = {version = "2.10.1", features = ["json"]}
 zerocopy = "0.8.6"
